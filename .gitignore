@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# Allow Markdown files
+!*.md
+
+# Allow image files
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.bmp
+!*.tiff
+!*.svg
+
+# Allow .gitignore file
+!.gitignore
+
+# Allow .obsidian folder and its contents
+!.obsidian/
+!.obsidian/**
+
+# Allow hidden directories but not their contents
+!*/
+
+.DS_Store
